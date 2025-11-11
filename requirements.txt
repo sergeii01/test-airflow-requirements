@@ -2,6 +2,7 @@
 # Python paketai:
 pip:requests==2.32.3
 pip:pandas>=2.2.0
+pip:scrapy
 
 # JAR’ai:
 jar:https://repo1.maven.org/maven2/org/postgresql/postgresql/42.7.4/postgresql-42.7.4.jar
