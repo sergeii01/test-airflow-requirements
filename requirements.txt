@@ -1,11 +1,13 @@
 # requirements.txt pavyzdys:
+# del-pip:* - paketai istrinimui
 # Python paketai:
 pip:requests==2.32.1
 pip:pandas>=2.2.0
-pip:scrapy
+del-pip:scrapy
 pip:dlms-cosem==21.3.2
 
 # JAR’ai:
+# del-jar:* - paketai istrinimui
 jar:https://repo1.maven.org/maven2/org/postgresql/postgresql/42.7.4/postgresql-42.7.4.jar
 jar:https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.12.767/aws-java-sdk-bundle-1.12.767.jar
 jar:https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31.jar
