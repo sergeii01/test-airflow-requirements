@@ -4,7 +4,7 @@
 pip:requests==2.32.1
 pip:pandas>=2.2.0
 del-pip:scrapy
-pip:dlms-cosem==21.1.1
+
 
 # JAR’ai:
 # del-jar:* - paketai istrinimui
